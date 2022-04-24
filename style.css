@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    margin-left: 350px;
+}
+input[type=button]{
+    cursor:pointer;
+    background-color: rgb(196, 17, 17);
+    border: none;
+    height: 30px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 12pt;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+input[type=button]:hover{
+    cursor:pointer;
+    background-color: rgb(204, 36, 36);
+}
